@@ -10,7 +10,7 @@ import it.rdev.rubrica.model.ContactDAO;
 
 public class ContactDAOImpl extends AbstractDAO implements ContactDAO {
 	
-	private final String TABLE_NAME = "contacts";
+	private final String TABLE_NAME = "contatti";
 
 	public List<Contact> getAll() {
 		List<Contact> contacts = new ArrayList<>();
